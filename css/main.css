@@ -16,3 +16,61 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer"
+}
+
+h1 {
+  max-width: 5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: 0 auto;
+}
+
+nav{
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 0;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+nav ul a:hover {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: #e7e7e7;
+  grid-area: header;
+
+}
+
+main {
+  background-color: #8b8b8b;
+  grid-area: main;
+}
+
+footer {
+  background-color: #d9d9d9;
+  grid-area: footer;
+}
