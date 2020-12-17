@@ -42,7 +42,7 @@ nav ul {
   display: flex;
   padding-left: 0;
   justify-content: center;
-  margin-top: 0;
+  margin-top: .5em;
 }
 
 nav ul a {
@@ -103,6 +103,7 @@ section {
 section dl {
   color: black;
   text-align: center;
+  margin-top: 1rem;
 }
 
 section dl dt {
@@ -211,7 +212,7 @@ footer ul li a {
     text-align: center;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
     text-shadow: 1px 1px 5px rgba(0, 0, 0, .9);
-    transition: all .2s linear;
+    transition: all .4s ease-in-out;
   }
 
   .hover-box:hover img,
