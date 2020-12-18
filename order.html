@@ -2,9 +2,51 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Order</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <h1 class="logo" aria-label="G&G Handcraft"><img src="images/gg-handcraft-logo.svg" alt="G&G Logo" role="presentation"></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="order.html">ORDER</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="contact pad-t-2 pad-b-2">
+  <div class="max-length">
+    <h3>Send us a little note</h3>
+    <form class="puch-0" method="POST" action="http://formspree.io/curtissentner@gmail.com">
+      <div class="push">
+        <label for="name">Name</label>
+        <input id="name" name="name" required>
+      </div>
+      <div class="push">
+        <label for="email">Your email</label>
+        <input id="email" type="email" placeholder="me@me.com" name="email" required>
+      </div>
+      <div class="push">
+        <label for="subject">Subject</label>
+        <select id="subject" name="_subject">
+          <option>Get a quote!</option>
+          <option>General questions</option>
+          <option>Just to talk</option>
+        </select>
+      </div>
+      <div class="push">
+        <label for="details">Whats's up?</label>
+        <textarea id="details" name="message" required></textarea>
+      </div>
+      <div>
+        <button class="btn btn-light mega" type="submit">Send message</button>
+      </div>
+    </form>
+  </div>
+</section>
 
 </body>
 </html>

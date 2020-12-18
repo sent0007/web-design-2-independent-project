@@ -148,7 +148,7 @@ section dl dd {
 
 .hover-box:hover h2,
 .hover-box:focus h2 {
-  bottom: 14.5em;
+  bottom: 2em;
 }
 
 .hover-box img {
