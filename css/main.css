@@ -171,6 +171,40 @@ footer ul li a {
   color: white;
 }
 
+.max-length {
+  margin: 0 auto;
+}
+
+form {
+  display: block;
+  min-width: 420px;
+}
+
+input {
+  padding: 10px;
+  margin: 1em;
+  padding-right: 14em;
+}
+
+textarea {
+  margin-top: 1em;
+  padding-bottom: 10em;
+}
+
+.push:nth-child(1) {
+  margin-left: 2rem;
+}
+
+.btn {
+  margin: 2em;
+  padding: .5em 1em;
+  margin-left: 15em;
+}
+
+.push .select {
+  margin-left: 5em;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
