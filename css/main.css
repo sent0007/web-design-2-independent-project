@@ -202,6 +202,16 @@ textarea {
   margin-left: 5em;
 }
 
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+  z-index: 300;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
