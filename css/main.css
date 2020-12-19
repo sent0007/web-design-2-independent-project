@@ -24,14 +24,14 @@ body {
   grid-template-areas:
     "header"
     "main"
-    "footer"
+    "footer";
 }
 
 h1 {
   max-width: 5rem;
+  margin: 0 auto;
   margin-top: 0;
   margin-bottom: 0;
-  margin: 0 auto;
 }
 
 h3 {
@@ -40,7 +40,7 @@ h3 {
   color: red;
 }
 
-nav{
+nav {
   margin: 0;
 }
 
@@ -88,7 +88,6 @@ div p {
   margin-left: .5em;
   margin-right: .5em;
   margin-bottom: .5em;
-
 }
 
 main {
@@ -113,19 +112,17 @@ section dl {
 }
 
 section dl dt {
-  color: red;
+  color: black;
   font-size: 1em;
-  font-weight:
+  font-weight: bold;
   font-variant-caps: normal;
   text-transform: uppercase;
   font-family: sans-serif;
-  font-weight: bold;
 }
 
 section dl dd {
   font-style: italic;
   font-size: 1.5rem;
-
 }
 
 .hover-box {
